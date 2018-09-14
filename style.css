@@ -1,0 +1,68 @@
+.navbar-default .navbar-nav > .active{
+    color: #000;
+    background: #CF893F;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background: #d65c14;
+}
+ p{
+    font-size: 16px;
+ }
+.desert {
+	text-align: center;
+	color: #CF893F;
+}
+ .btn-desert{
+   color: #CF893F;
+ }
+ .btn-desert:hover{
+ 	background: #CF893F;
+ }
+
+/*style for vertical line*/
+.vertical{
+	 border-left: 2px dashed #CF893F;
+    height: 600px;
+}
+
+
+.text-block {
+    position: absolute;
+    bottom: -2px;
+    right: 54px;
+    font:#CF893F;
+    color: white;
+    padding-left: 22px;
+    padding-right: 24px;
+}
+a{
+	color: white;
+}
+a:hover{
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+
+}
+
+
+/* Style for footer */
+footer{
+   background-color:  #CF893F;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    text-align: center;
+    color: #CCC;
+}
+
+footer p {
+    padding: 10.5px;
+    margin: 0px;
+    line-height: 100%;
+}
